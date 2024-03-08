@@ -55,11 +55,11 @@ class CustomerController {
 
   static async customerList(req, res, next) {
     try {
-      const { page, name, phone } = req.query;
+      const { page, name, phone, limit } = req.query;
 
       const options = {
-        limit: 3,
-        offset: (Number(page) - 1) * 3,
+        limit: Number(limit),
+        offset: (Number(page)) * Number(limit),
         where: {},
       };
 
@@ -73,11 +73,24 @@ class CustomerController {
 
       const customers = await Customer.findAll(options);
 
+      const totalItem = await Customer.count({ where: options.where });
+
+      const startItem = (Number(page)) * Number(limit) + 1;
+      const endItem = Math.min(startItem + customers.length - 1, totalItem);
+
+      const pagination = {
+        currentPage: parseInt(page, 10),
+        totalItem,
+        startItem,
+        endItem,
+      };
+
       res.status(200).json({
         status: true,
         message: "Successfully retrieved customer list",
         statusCode: "OK",
         response: customers,
+        pagination
       });
     } catch (error) {
       next(error);

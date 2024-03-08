@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Jijio",
+        "phone": "+62812345612",
+        "email": "test13@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Aditama",
+        "phone": "+62812345612",
+        "email": "test1@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Brama",
+        "phone": "+62812345612",
+        "email": "test2@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Bramantya",
+        "phone": "+62812345612",
+        "email": "test3@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Bramantyo",
+        "phone": "+62812345612",
+        "email": "test34@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Brahmantyo",
+        "phone": "+62812345612",
+        "email": "test345@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Andika",
+        "phone": "+62812345612",
+        "email": "test3453@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Sandikha",
+        "phone": "+62812345612",
+        "email": "tesst3453@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Afrizal",
+        "phone": "+62812345612",
+        "email": "tesstt3453@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Aki",
+        "phone": "+62812345612",
+        "email": "tesstt343@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Akyo",
+        "phone": "+62812345612",
+        "email": "tesstt33@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "William",
+        "phone": "+62812345612",
+        "email": "tesst33@validation.com",
+        "address": "Riau",
+        "createdAt": "2024-03-08T17:43:48.738Z",
+        "updatedAt": "2024-03-08T17:43:48.738Z"
+    },
+    {
+        "name": "Nikita",
+        "phone": "+62812345612",
+        "email": "tsst33@validation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Akoi",
+        "phone": "+62814445612",
+        "email": "tsst33@vaslidation.com",
+        "address": "Riau"
+    },
+    {
+        "name": "Harold",
+        "phone": "+6289823647322",
+        "email": "test@2email.com",
+        "address": "Jl. Sumatera No.4"
+    }
+]

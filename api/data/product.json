@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Beras Solok",
+        "unit": "kg",
+        "price": 2000
+    },
+    {
+        "name": "Beras Rajo",
+        "unit": "kg",
+        "price": 2500
+    },
+    {
+        "name": "Chiki",
+        "unit": "pack",
+        "price": 1000
+    }
+]

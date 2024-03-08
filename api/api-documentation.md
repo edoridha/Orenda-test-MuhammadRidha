@@ -27,9 +27,10 @@ Request:
 
 - query:
 ```form
-page: Page number (default: 1)
+page: Page number
 name: (Filter customers by name)
 phone: (Filter customers by phone number)
+limit: limit item to get
 ```
 
 _Response (200 - OK)_
@@ -41,33 +42,21 @@ _Response (200 - OK)_
     "statusCode": "OK",
     "response": [
         {
-            "id": 1,
+            "id": 4,
             "name": "Bramantya",
-            "phone": "+62812345612",
-            "email": "test@email.com",
-            "address": "Riau",
-            "createdAt": "2024-03-07T12:50:30.650Z",
-            "updatedAt": "2024-03-07T12:50:30.650Z"
-        },
-        {
-            "id": 2,
-            "name": "Rendra",
-            "phone": "+62812345612",
-            "email": "test1@email.com",
-            "address": "Riau",
-            "createdAt": "2024-03-07T13:11:55.250Z",
-            "updatedAt": "2024-03-07T13:16:58.739Z"
-        },
-        {
-            "id": 3,
-            "name": "Aditama",
             "phone": "+62812345612",
             "email": "test3@validation.com",
             "address": "Riau",
-            "createdAt": "2024-03-07T14:08:12.724Z",
-            "updatedAt": "2024-03-07T14:08:12.724Z"
+            "createdAt": "2024-03-07T20:17:16.809Z",
+            "updatedAt": "2024-03-07T20:17:16.809Z"
         }
-    ]
+    ],
+    "pagination": {
+        "currentPage": 2,
+        "totalItem": 4,
+        "startItem": 4,
+        "endItem": 4
+    }
 }
 ```
 
