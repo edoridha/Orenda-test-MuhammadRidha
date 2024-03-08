@@ -7,6 +7,8 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import TextField from '@mui/material/TextField';
 import PageSelect from './PageSelect';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
+import Button from '@mui/material/Button';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 export default function TableComponent(props) {
@@ -77,7 +79,9 @@ export default function TableComponent(props) {
                                 <TableCell>{d.phone}</TableCell>
                                 <TableCell> {d.email} </TableCell>
                                 <TableCell> {d.address} </TableCell>
-                                <TableCell>Ridha</TableCell>
+                                <TableCell>
+                                    <Button startIcon={<MoreVertIcon/>} ></Button>
+                                </TableCell>
                             </TableRow>
                         })
                     }
